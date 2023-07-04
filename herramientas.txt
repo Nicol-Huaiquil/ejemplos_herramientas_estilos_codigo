@@ -1,0 +1,31 @@
+Python
+	#Instalación Black
+	pip install black
+
+	#Para ver los cambios que realizaría
+	black --diff main.py
+
+	#Para realizar los cambios de un archivo en especifico
+	black main.py
+
+	#Para realizar los cambios en todos los .py existentes
+	black .
+Javascript y Typescript
+	#Instalación Prettier
+      	npm install -g prettier
+		Visual studio code ->  añadir extensión "Prettier - Code formatter
+		Crea un archivo .prettierrc con:
+			{
+				"singleQuote": true,
+				"trailingComma": "all"
+			}
+
+	#Para ver los cambios que realizaría
+		prettier --check main.js
+
+	#Para realizar los cambios de un archivo en especifico
+		prettier --write main.js
+
+	#Para realizar cambios en todos los .js
+		prettier --write *.js   
+
